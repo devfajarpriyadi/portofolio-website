@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Fajar, calon Web Developer yang tertarik pada aplikasi web dan data.">
+  <title>Fajar | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="logo" href="#home">Fajar<span>.</span></a>
+
+      <button class="menu-toggle" aria-label="Buka menu"
+              aria-expanded="false" aria-controls="nav-links">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Skill</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HALO, SAYA FAJAR 👋</p>
+        <h1>Membangun website yang <span>bermanfaat.</span></h1>
+        <p class="hero-description">
+          Saya sedang belajar menjadi Web Developer, dengan minat
+          pada aplikasi web, database, dan visualisasi data.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Lihat Proyek</a>
+          <a class="button secondary" href="#contact">Hubungi Saya</a>
+        </div>
+
+        <p class="availability">● Terbuka untuk belajar dan berkolaborasi</p>
+      </div>
+
+      <div class="profile-card">
+        <div class="avatar">F</div>
+        <h2>Fajar</h2>
+        <p>Aspiring Web Developer</p>
+        <div class="profile-divider"></div>
+        <p class="profile-note">Belajar hari ini, membangun solusi esok hari.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <p class="eyebrow">PERKENALAN</p>
+      <h2 class="section-title">Tentang Saya</h2>
+      <p class="section-description">
+        Saya tertarik membangun aplikasi yang membantu orang bekerja
+        lebih efektif. Saya ingin mengembangkan kemampuan frontend,
+        backend, database, dan desain sistem melalui proyek nyata.
+      </p>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">KEMAMPUAN</p>
+      <h2 class="section-title">Teknologi yang Saya Pelajari</h2>
+
+      <div class="skill-grid">
+        <article class="skill-card">
+          <span>🌐</span>
+          <h3>HTML</h3>
+          <p>Struktur website</p>
+        </article>
+        <article class="skill-card">
+          <span>🎨</span>
+          <h3>CSS</h3>
+          <p>Desain responsif</p>
+        </article>
+        <article class="skill-card">
+          <span>⚡</span>
+          <h3>JavaScript</h3>
+          <p>Interaksi website</p>
+        </article>
+        <article class="skill-card">
+          <span>🗄️</span>
+          <h3>SQL</h3>
+          <p>Pengolahan data</p>
+        </article>
+      </div>
+      <p class="small-note">
+        Daftar skill ini adalah contoh. Sesuaikan dengan kemampuan
+        yang benar-benar kamu miliki dan tingkat penguasaanmu.
+      </p>
+    </section>
+
+    <section class="section container" id="projects">
+      <p class="eyebrow">HASIL KARYA</p>
+      <h2 class="section-title">Proyek Pilihan</h2>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-icon">💻</div>
+          <p class="project-type">WEB DEVELOPMENT</p>
+          <h3>Personal Portfolio</h3>
+          <p>Website profil untuk menampilkan kemampuan dan hasil karya.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">Lihat GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">📊</div>
+          <p class="project-type">DATA ANALYTICS</p>
+          <h3>Sales Dashboard</h3>
+          <p>Konsep dashboard untuk memantau penjualan dan tren bisnis.</p>
+          <div class="tags">
+            <span>SQL</span><span>Dashboard</span>
+          </div>
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">Lihat GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">📱</div>
+          <p class="project-type">WEB APPLICATION</p>
+          <h3>Task Manager</h3>
+          <p>Konsep aplikasi untuk mencatat dan mengelola tugas harian.</p>
+          <div class="tags">
+            <span>JavaScript</span><span>CSS</span>
+          </div>
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">Lihat GitHub ↗</a>
+        </article>
+      </div>
+      <p class="small-note">
+        Ketiga proyek di atas adalah contoh awal, bukan tautan ke
+        proyek buatanmu. Ganti dengan repository milikmu setelah tersedia.
+      </p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-content">
+        <p class="eyebrow">MARI TERHUBUNG</p>
+        <h2 class="section-title">Punya ide untuk dikerjakan bersama?</h2>
+        <p class="section-description">
+          Silakan hubungi saya melalui email atau kunjungi profil GitHub.
+        </p>
+        <a class="button primary"
+           href="mailto:emailkamu@example.com">Kirim Email</a>
+        <a class="text-link" href="https://github.com/"
+           target="_blank" rel="noopener noreferrer">Profil GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Fajar. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+  </footer>
+</body>
+</html>
